@@ -1,0 +1,36 @@
+# Description: Portable Foreign Function Interface Library
+# URL:         http://sourceware.org/libffi/
+# Maintainer: cruxppc at gmail dot com
+
+name=libffi
+#version=3.3
+version=3.2.1
+release=4
+source=(https://sourceware.org/pub/$name/$name-$version.tar.gz
+        powerpc-fix-2.patch
+        powerpc-fix.patch)
+
+build() {
+
+    cd $name-$version
+    # Patches for 3.3 only, not 3.2.1
+    #cd src
+    #patch -p1 -i ${SRC}/powerpc-fix.patch
+    #patch -p1 -i ${SRC}/powerpc-fix-2.patch
+    #cd ..
+
+
+    sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' \
+        -i include/Makefile.in
+
+    sed \
+        -e '/^includedir/ s/=.*$/=@includedir@/' \
+        -e 's/^Cflags: -I${includedir}/Cflags:/' \
+        -i libffi.pc.in
+
+    ./configure --prefix=/usr
+    make
+    #make check
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/info
+}

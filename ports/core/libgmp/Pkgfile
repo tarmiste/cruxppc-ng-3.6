@@ -1,0 +1,34 @@
+# Description: Free library for arbitrary precision arithmetic
+# URL:         http://gmplib.org/
+# Maintainer:  TBA
+# Arch Maintainer: CRUX-PPC System Team, devel at crux-ppc dot tba
+
+name=libgmp
+version=6.2.0
+release=1
+source=(http://gmplib.org/download/gmp/gmp-$version.tar.xz \
+        gmp.h)
+
+build() {
+    cd gmp-$version
+
+    # Remove the detection/optimization of host cpu so that
+    # the resulting build is powerpc generic.   If optimizations specific
+    # to the build machine are desired, remove or comment out the
+    # next 2 commands:
+
+    cp configfsf.guess config.guess
+    cp configfsf.sub config.sub
+
+    ./configure --prefix=/usr \
+                --enable-cxx
+    #./configure --prefix=/usr \
+    #            --enable-cxx \
+    #            --build=powerpc-unknown-linux-gnu
+    make
+    #make check
+    make DESTDIR=$PKG install
+    # mv $PKG/usr/include/gmp{,-64}.h
+    # install -m 0644 $SRC/gmp.h $PKG/usr/include/
+    rm -r $PKG/usr/share
+}
