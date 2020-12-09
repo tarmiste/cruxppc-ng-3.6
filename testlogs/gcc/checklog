@@ -1,0 +1,408 @@
+cat <<'EOF' |
+LAST_UPDATED: Obtained from git: releases/gcc-10.2.0 revision ee5c3db6c5b2c3332912fb4c9cfa2864569ebd9a
+
+Native configuration is powerpc-unknown-linux-gnu
+
+		=== g++ tests ===
+
+
+Running target unix
+FAIL: g++.dg/asan/asan_test.C   -O2  (test for excess errors)
+UNRESOLVED: g++.dg/asan/asan_test.C   -O2  compilation failed to produce executable
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O0  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O1  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O2  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O3 -g  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -Os  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: g++.dg/coroutines/torture/co-ret-17-void-ret-coro.C   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O0  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O1  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O2  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O3 -g  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -Os  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: g++.dg/coroutines/torture/pr95519-05-gro.C   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++14 (internal compiler error)
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++14 (test for excess errors)
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++17 (internal compiler error)
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++17 (test for excess errors)
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++2a (internal compiler error)
+FAIL: g++.dg/cpp1y/lambda-generic-variadic20.C  -std=c++2a (test for excess errors)
+FAIL: g++.dg/ext/attr-ifunc-1.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-1.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-1.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-1.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-1.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-1.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-1.C  -std=gnu++2a (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-1.C  -std=gnu++2a compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-2.C  -std=gnu++98 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-2.C  -std=gnu++98 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-2.C  -std=gnu++14 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-2.C  -std=gnu++14 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-2.C  -std=gnu++17 (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-2.C  -std=gnu++17 compilation failed to produce executable
+FAIL: g++.dg/ext/attr-ifunc-2.C  -std=gnu++2a (test for excess errors)
+UNRESOLVED: g++.dg/ext/attr-ifunc-2.C  -std=gnu++2a compilation failed to produce executable
+FAIL: g++.dg/ubsan/vla-1.C   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+
+		=== g++ Summary ===
+
+# of expected passes		186379
+# of unexpected failures	32
+# of expected failures		705
+# of unresolved testcases	9
+# of unsupported tests		8538
+/usr/ports/core/gcc/work/src/build/gcc/xg++  version 10.2.0 (CRUX-x86_64-multilib) 
+
+		=== gcc tests ===
+
+
+Running target unix
+FAIL: gcc.dg/asan/pr80166.c   -O0  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -O1  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -O2  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -O3 -g  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -Os  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  (test for excess errors)
+FAIL: gcc.dg/asan/pr80166.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  (test for excess errors)
+FAIL: gcc.dg/attr-ifunc-1.c (test for excess errors)
+UNRESOLVED: gcc.dg/attr-ifunc-1.c compilation failed to produce executable
+FAIL: gcc.dg/attr-ifunc-3.c (test for excess errors)
+UNRESOLVED: gcc.dg/attr-ifunc-3.c compilation failed to produce executable
+FAIL: gcc.dg/attr-ifunc-4.c (test for excess errors)
+UNRESOLVED: gcc.dg/attr-ifunc-4.c compilation failed to produce executable
+FAIL: gcc.dg/attr-ifunc-5.c (test for excess errors)
+UNRESOLVED: gcc.dg/attr-ifunc-5.c compilation failed to produce executable
+FAIL: gcc.dg/cdce3.c scan-tree-dump cdce "cdce3.c:10: [^\\n\\r]* function call is shrink-wrapped into error conditions."
+FAIL: gcc.dg/gimplefe-28.c (internal compiler error)
+FAIL: gcc.dg/gimplefe-28.c (test for excess errors)
+FAIL: gcc.dg/pow-sqrt-synth-1.c scan-tree-dump-times sincos "synthesizing" 7
+FAIL: gcc.dg/pr45352-3.c (internal compiler error)
+FAIL: gcc.dg/pr45352-3.c (test for excess errors)
+FAIL: gcc.dg/pr45352.c (internal compiler error)
+FAIL: gcc.dg/pr45352.c (test for excess errors)
+FAIL: gcc.dg/pr46521.c (internal compiler error)
+FAIL: gcc.dg/pr46521.c (test for excess errors)
+FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash no residual allocation in prologue" 1
+FAIL: gcc.dg/stack-check-5.c scan-rtl-dump-times pro_and_epilogue "Stack clash residual allocation in prologue" 3
+FAIL: gcc.dg/stack-usage-1.c scan-stack-usage foo\\t(256|264)\\tstatic
+FAIL: gcc.dg/strlenopt-73.c scan-tree-dump-times optimized "strlen" 0
+FAIL: gcc.dg/strlenopt-73.c scan-tree-dump-times optimized "_not_eliminated_" 0
+FAIL: gcc.dg/strlenopt-80.c scan-tree-dump-times optimized "failure_on_line \\\\(" 0
+FAIL: gcc.dg/superblock.c scan-rtl-dump-times sched2 "ADVANCING TO" 2
+FAIL: gcc.dg/ipa/ipa-pta-19.c (test for excess errors)
+UNRESOLVED: gcc.dg/ipa/ipa-pta-19.c compilation failed to produce executable
+FAIL: gcc.dg/ipa/ipa-sra-19.c (test for excess errors)
+FAIL: gcc.dg/lto/20110201-1 c_lto_20110201-1_0.o-c_lto_20110201-1_0.o link,  -O0 -flto -fno-math-errno 
+FAIL: gcc.dg/torture/pr52451.c   -O0  execution test
+FAIL: gcc.dg/torture/pr52451.c   -O1  execution test
+FAIL: gcc.dg/torture/pr52451.c   -O2  execution test
+FAIL: gcc.dg/torture/pr52451.c   -O3 -g  execution test
+FAIL: gcc.dg/torture/pr52451.c   -Os  execution test
+FAIL: gcc.dg/torture/pr52451.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/torture/pr52451.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O0  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O1  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O2  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O3 -g  execution test
+FAIL: gcc.dg/torture/pr91323.c   -Os  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/torture/pr91323.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/tree-prof/pr45354.c compilation,  -fprofile-generate -D_PROFILE_GENERATE (internal compiler error)
+UNRESOLVED: gcc.dg/tree-prof/pr45354.c execution,    -fprofile-generate -D_PROFILE_GENERATE
+UNRESOLVED: gcc.dg/tree-prof/pr45354.c compilation,  -fprofile-use -D_PROFILE_USE
+UNRESOLVED: gcc.dg/tree-prof/pr45354.c execution,    -fprofile-use -D_PROFILE_USE
+XPASS: gcc.dg/tree-ssa/cunroll-15.c scan-tree-dump optimized "return 1;"
+FAIL: gcc.dg/vect/costmodel/ppc/costmodel-vect-31a.c scan-tree-dump-times vect "not vectorized: unsupported unaligned store" 1
+FAIL: gcc.dg/vect/costmodel/ppc/costmodel-vect-76b.c scan-tree-dump-times vect "vectorized 1 loops" 0
+FAIL: gcc.dg/vect/costmodel/ppc/costmodel-vect-76b.c scan-tree-dump-times vect "vectorization not profitable" 1
+FAIL: gcc.dg/vect/costmodel/ppc/costmodel-bb-slp-9a-pr63175.c scan-assembler-not \\tlwz?u?x? 
+FAIL: gcc.dg/vect/costmodel/ppc/costmodel-bb-slp-9a-pr63175.c scan-assembler-not \\tstwu?x? 
+FAIL: gcc.dg/vect/pr85586.c scan-tree-dump-times vect "LOOP VECTORIZED" 1
+FAIL: gcc.dg/vect/vect-31.c scan-tree-dump-times vect "vectorized 4 loops" 1
+FAIL: gcc.dg/vect/vect-44.c scan-tree-dump-times vect "Vectorizing an unaligned access" 3
+FAIL: gcc.dg/vect/vect-50.c scan-tree-dump-times vect "Vectorizing an unaligned access" 3
+FAIL: gcc.dg/vect/vect-82.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-82_64.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-83.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-83_64.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-93.c scan-tree-dump-times vect "vectorized 2 loops" 2
+FAIL: gcc.dg/vect/vect-alias-check-18.c scan-tree-dump vect "using an index-based WAR/WAW test"
+FAIL: gcc.dg/vect/vect-strided-a-u8-i2-gap.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/slp-43.c scan-tree-dump-times vect "vectorized 1 loops" 2
+FAIL: gcc.dg/vect/pr85586.c -flto -ffat-lto-objects  scan-tree-dump-times vect "LOOP VECTORIZED" 1
+FAIL: gcc.dg/vect/vect-31.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 4 loops" 1
+FAIL: gcc.dg/vect/vect-44.c -flto -ffat-lto-objects  scan-tree-dump-times vect "Vectorizing an unaligned access" 3
+FAIL: gcc.dg/vect/vect-50.c -flto -ffat-lto-objects  scan-tree-dump-times vect "Vectorizing an unaligned access" 3
+FAIL: gcc.dg/vect/vect-82.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-82_64.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-83.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-83_64.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/vect-93.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 2 loops" 2
+FAIL: gcc.dg/vect/vect-alias-check-18.c -flto -ffat-lto-objects  scan-tree-dump vect "using an index-based WAR/WAW test"
+FAIL: gcc.dg/vect/vect-strided-a-u8-i2-gap.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/slp-43.c -flto -ffat-lto-objects  scan-tree-dump-times vect "vectorized 1 loops" 2
+FAIL: gcc.dg/vect/no-vfa-vect-depend-2.c scan-tree-dump-times vect "vectorized 1 loops" 1
+FAIL: gcc.dg/vect/no-vfa-vect-depend-3.c scan-tree-dump-times vect "vectorized 1 loops" 4
+FAIL: gcc.dg/vect/section-anchors-vect-69.c scan-tree-dump-times vect "vectorized 4 loops" 1
+FAIL: gcc.dg/vect/no-tree-sra-bb-slp-pr50730.c scan-tree-dump-times slp2 "basic block vectorized" 1
+FAIL: gcc.dg/vmx/3c-01.c   -O2  execution test
+FAIL: gcc.dg/vmx/3c-01.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/3c-01.c   -Os  execution test
+FAIL: gcc.dg/vmx/3c-01.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/3c-01.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/extract-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/insert-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/ld-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/ldl-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/merge-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/splat-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/st-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O0  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O1  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O2  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O3 -g  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -Os  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O2 -flto -fno-use-linker-plugin -flto-partition=none  execution test
+FAIL: gcc.dg/vmx/stl-vsx.c   -O2 -flto -fuse-linker-plugin -fno-fat-lto-objects  execution test
+FAIL: gcc.target/powerpc/bfp/scalar-extract-exp-5.c  (test for errors, line 17)
+FAIL: gcc.target/powerpc/bfp/scalar-extract-exp-5.c (test for excess errors)
+FAIL: gcc.target/powerpc/bfp/scalar-extract-sig-5.c  (test for errors, line 15)
+FAIL: gcc.target/powerpc/bfp/scalar-extract-sig-5.c (test for excess errors)
+FAIL: gcc.target/powerpc/bfp/scalar-insert-exp-11.c  (test for errors, line 19)
+FAIL: gcc.target/powerpc/bfp/scalar-insert-exp-11.c (test for excess errors)
+FAIL: gcc.target/powerpc/bfp/scalar-insert-exp-8.c (test for excess errors)
+FAIL: gcc.target/powerpc/bfp/scalar-test-data-class-11.c  (test for errors, line 13)
+FAIL: gcc.target/powerpc/bfp/scalar-test-data-class-11.c (test for excess errors)
+FAIL: gcc.target/powerpc/bfp/scalar-test-neg-5.c  (test for errors, line 13)
+FAIL: gcc.target/powerpc/bfp/scalar-test-neg-5.c (test for excess errors)
+FAIL: gcc.target/powerpc/byte-in-set-2.c  (test for errors, line 14)
+FAIL: gcc.target/powerpc/byte-in-set-2.c (test for excess errors)
+FAIL: gcc.target/powerpc/conditional-return.c scan-assembler \\\\mbeqlr\\\\M
+FAIL: gcc.target/powerpc/dfmode_off.c object-size text == 320
+FAIL: gcc.target/powerpc/dimode_off.c object-size text <= 640
+FAIL: gcc.target/powerpc/divkc3-2.c scan-assembler bl __divkc3
+FAIL: gcc.target/powerpc/float128-3.c (test for excess errors)
+FAIL: gcc.target/powerpc/float128-mix.c  (test for errors, line 9)
+FAIL: gcc.target/powerpc/float128-mix.c  (test for errors, line 14)
+FAIL: gcc.target/powerpc/float128-mix.c (test for excess errors)
+FAIL: gcc.target/powerpc/fold-vec-extract-char.p7.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-char.p7.c scan-assembler-times \\\\mli\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-char.p9.c scan-assembler-times addi 6
+FAIL: gcc.target/powerpc/fold-vec-extract-double.p7.c scan-assembler-times \\\\mli\\\\M 1
+FAIL: gcc.target/powerpc/fold-vec-extract-double.p7.c scan-assembler-times \\\\maddi\\\\M|\\\\madd\\\\M 2
+FAIL: gcc.target/powerpc/fold-vec-extract-float.p7.c scan-assembler-times \\\\mli\\\\M 1
+FAIL: gcc.target/powerpc/fold-vec-extract-float.p7.c scan-assembler-times \\\\maddi\\\\M|\\\\madd\\\\M 2
+FAIL: gcc.target/powerpc/fold-vec-extract-float.p8.c scan-assembler-times \\\\mli\\\\M 1
+FAIL: gcc.target/powerpc/fold-vec-extract-float.p8.c scan-assembler-times \\\\maddi\\\\M 1
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p7.c scan-assembler-times \\\\mli\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p7.c scan-assembler-times \\\\maddi\\\\M|\\\\madd\\\\M 9
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p7.c scan-assembler-times \\\\mlwz\\\\M|\\\\mlwa\\\\M|\\\\mlwzx\\\\M|\\\\mlwax\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p8.c scan-assembler-times \\\\mli\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p8.c scan-assembler-times \\\\mlwz\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p8.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p9.c scan-assembler-times \\\\mlwz\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-int.p9.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-longlong.p7.c scan-assembler-times \\\\mlwz\\\\M 11
+FAIL: gcc.target/powerpc/fold-vec-extract-longlong.p7.c scan-assembler-times \\\\mli\\\\M 5
+FAIL: gcc.target/powerpc/fold-vec-extract-longlong.p7.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-longlong.p8.c scan-assembler-times \\\\mlwz\\\\M 11
+FAIL: gcc.target/powerpc/fold-vec-extract-longlong.p8.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-short.p7.c scan-assembler-times \\\\mli\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-short.p7.c scan-assembler-times \\\\maddi\\\\M|\\\\madd\\\\M 9
+FAIL: gcc.target/powerpc/fold-vec-extract-short.p8.c scan-assembler-times \\\\mli\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-extract-short.p8.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/fold-vec-insert-char-p9.c scan-assembler-times \\\\madd\\\\M 4
+FAIL: gcc.target/powerpc/fold-vec-insert-int-p8.c scan-assembler-times \\\\mstvx\\\\M|\\\\mstwx\\\\M|\\\\mstw\\\\M|\\\\mstxvw4x\\\\M 12
+FAIL: gcc.target/powerpc/fold-vec-insert-int-p9.c scan-assembler-times \\\\maddi\\\\M 12
+FAIL: gcc.target/powerpc/fold-vec-insert-int-p9.c scan-assembler-times \\\\mstw\\\\M 8
+FAIL: gcc.target/powerpc/fold-vec-insert-longlong.c scan-assembler-times \\\\mstw\\\\M 8
+FAIL: gcc.target/powerpc/lhs-1.c scan-assembler-times nop 3
+FAIL: gcc.target/powerpc/maddld-1.c scan-assembler-not \\\\madd
+FAIL: gcc.target/powerpc/mulkc3-2.c (internal compiler error)
+FAIL: gcc.target/powerpc/mulkc3-2.c (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/mulkc3-2.c scan-assembler bl __mulkc3
+FAIL: gcc.target/powerpc/pr17381.c scan-assembler-times fmr 1
+FAIL: gcc.target/powerpc/pr46728-10.c execution test
+FAIL: gcc.target/powerpc/pr46728-11.c execution test
+FAIL: gcc.target/powerpc/pr46728-13.c execution test
+FAIL: gcc.target/powerpc/pr46728-14.c execution test
+FAIL: gcc.target/powerpc/pr54009.c scan-assembler-not [+]32768
+FAIL: gcc.target/powerpc/pr55033.c (test for excess errors)
+FAIL: gcc.target/powerpc/pr71656-1.c (test for excess errors)
+FAIL: gcc.target/powerpc/pr77687.c (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/pr77687.c scan-assembler-not \\\\mmr r?1,r?11\\\\M.*11.*\\\\mblr\\\\M
+FAIL: gcc.target/powerpc/pr79439-3.c scan-assembler-times \\\\mbl f@plt\\\\M 1
+FAIL: gcc.target/powerpc/pr79439-3.c scan-assembler-times \\\\mbl g@plt\\\\M 1
+FAIL: gcc.target/powerpc/pr84154-3.c scan-assembler-times \\\\maddi\\\\M 6
+FAIL: gcc.target/powerpc/pr85456.c scan-assembler bl __powikf2
+FAIL: gcc.target/powerpc/pr85755.c scan-assembler-times \\\\mstwu\\\\M 2
+FAIL: gcc.target/powerpc/rlwimi-0.c scan-assembler-times (?n)^\\\\s+[a-z] 16485
+FAIL: gcc.target/powerpc/rlwimi-1.c scan-assembler-times (?n)^\\\\s+[a-z] 13977
+FAIL: gcc.target/powerpc/rlwimi-2.c scan-assembler-times (?n)^\\\\s+[a-z] 14121
+FAIL: gcc.target/powerpc/rlwinm-0.c scan-assembler-times (?n)^\\\\s+[a-z] 6739
+FAIL: gcc.target/powerpc/rlwinm-1.c scan-assembler-times (?n)^\\\\s+[a-z] 6739
+FAIL: gcc.target/powerpc/rlwinm-2.c scan-assembler-times (?n)^\\\\s+[a-z] 6739
+FAIL: gcc.target/powerpc/savres.c (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/savres.c compilation failed to produce executable
+FAIL: gcc.target/powerpc/shift-int.c scan-assembler-times (?n)^\\\\s+[a-z] 16
+FAIL: gcc.target/powerpc/shrink-wrap-separate-0.c scan-assembler #before\\\\M.*\\\\mmflr\\\\M
+FAIL: gcc.target/powerpc/shrink-wrap-separate-1.c scan-assembler \\\\mmflr\\\\M.*\\\\mbl\\\\M.*\\\\mmflr\\\\M.*\\\\mbl\\\\M
+FAIL: gcc.target/powerpc/shrink-wrap-separate-2.c scan-assembler \\\\mmflr\\\\M.*\\\\mbl\\\\M.*\\\\mmflr\\\\M.*\\\\mbl\\\\M
+FAIL: gcc.target/powerpc/spe-small-data-2.c (test for excess errors)
+FAIL: gcc.target/powerpc/test_fpscr_rn_builtin.c execution test
+FAIL: gcc.target/powerpc/tfmode_off.c object-size text == 544
+FAIL: gcc.target/powerpc/savres.c  -Os  (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/savres.c  -Os  compilation failed to produce executable
+FAIL: gcc.target/powerpc/savres.c  -O2  (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/savres.c  -O2  compilation failed to produce executable
+FAIL: gcc.target/powerpc/savres.c  -Os -mno-multiple  (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/savres.c  -Os -mno-multiple  compilation failed to produce executable
+FAIL: gcc.target/powerpc/savres.c  -O2 -mno-multiple  (test for excess errors)
+UNRESOLVED: gcc.target/powerpc/savres.c  -O2 -mno-multiple  compilation failed to produce executable
+FAIL: gcc.target/powerpc/vsu/vec-xl-len-13.c  (test for errors, line 16)
+FAIL: gcc.target/powerpc/vsu/vec-xl-len-13.c (test for excess errors)
+
+		=== gcc Summary ===
+
+# of expected passes		129995
+# of unexpected failures	222
+# of unexpected successes	1
+# of expected failures		706
+# of unresolved testcases	15
+# of unsupported tests		4006
+/usr/ports/core/gcc/work/src/build/gcc/xgcc  version 10.2.0 (CRUX-x86_64-multilib) 
+
+		=== objc tests ===
+
+
+Running target unix
+
+		=== objc Summary ===
+
+# of expected passes		2784
+# of unsupported tests		68
+/usr/ports/core/gcc/work/src/build/gcc/xgcc  version 10.2.0 (CRUX-x86_64-multilib) 
+
+		=== libatomic tests ===
+
+
+Running target unix
+
+		=== libatomic Summary ===
+
+# of expected passes		44
+# of unsupported tests		5
+		=== libgomp tests ===
+
+
+Running target unix
+FAIL: libgomp.oacc-c/../libgomp.oacc-c-c++-common/atomic_update-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  execution test
+FAIL: libgomp.oacc-c++/../libgomp.oacc-c-c++-common/atomic_update-1.c -DACC_DEVICE_TYPE_host=1 -DACC_MEM_SHARED=1 -foffload=disable  -O2  execution test
+
+		=== libgomp Summary ===
+
+# of expected passes		2619
+# of unexpected failures	2
+# of expected failures		2
+# of unsupported tests		312
+		=== libitm tests ===
+
+
+Running target unix
+
+		=== libitm Summary ===
+
+# of expected passes		42
+# of expected failures		3
+# of unsupported tests		1
+		=== libstdc++ tests ===
+
+
+Running target unix
+FAIL: 27_io/filesystem/iterators/directory_iterator.cc execution test
+FAIL: 27_io/filesystem/iterators/recursive_directory_iterator.cc execution test
+FAIL: 27_io/filesystem/operations/exists.cc execution test
+FAIL: 27_io/filesystem/operations/is_empty.cc execution test
+FAIL: 27_io/filesystem/operations/remove.cc execution test
+FAIL: 27_io/filesystem/operations/remove_all.cc execution test
+FAIL: 27_io/filesystem/operations/status.cc execution test
+FAIL: 27_io/filesystem/operations/symlink_status.cc execution test
+FAIL: 27_io/filesystem/operations/temp_directory_path.cc execution test
+FAIL: 29_atomics/atomic_float/value_init.cc (test for excess errors)
+UNRESOLVED: 29_atomics/atomic_float/value_init.cc compilation failed to produce executable
+FAIL: experimental/filesystem/iterators/directory_iterator.cc execution test
+FAIL: experimental/filesystem/iterators/recursive_directory_iterator.cc execution test
+FAIL: experimental/filesystem/operations/exists.cc execution test
+FAIL: experimental/filesystem/operations/is_empty.cc execution test
+FAIL: experimental/filesystem/operations/remove.cc execution test
+FAIL: experimental/filesystem/operations/remove_all.cc execution test
+FAIL: experimental/filesystem/operations/temp_directory_path.cc execution test
+FAIL: experimental/net/internet/resolver/ops/lookup.cc execution test
+
+		=== libstdc++ Summary ===
+
+# of expected passes		13513
+# of unexpected failures	18
+# of expected failures		93
+# of unresolved testcases	1
+# of unsupported tests		699
+
+Compiler version: 10.2.0 (CRUX-x86_64-multilib) 
+Platform: powerpc-unknown-linux-gnu
+configure flags: --prefix=/usr --libexecdir=/usr/lib --enable-languages=c,c++,objc --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-shared --disable-nls --with-x=no --with-system-zlib --disable-multilib --disable-bootstrap --enable-default-pie --enable-default-ssp --with-pkgversion=CRUX-x86_64-multilib
+EOF
+Mail -s "Results for 10.2.0 (CRUX-x86_64-multilib) testsuite on powerpc-unknown-linux-gnu" gcc-testresults@gcc.gnu.org &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/g++/g++.sum /usr/ports/core/gcc/work/src/build/./gcc/testsuite/g++/g++.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/gcc/gcc.sum /usr/ports/core/gcc/work/src/build/./gcc/testsuite/gcc/gcc.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/objc/objc.sum /usr/ports/core/gcc/work/src/build/./gcc/testsuite/objc/objc.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libatomic/testsuite/libatomic.sum /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libatomic/testsuite/libatomic.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libgomp/testsuite/libgomp.sum /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libgomp/testsuite/libgomp.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libitm/testsuite/libitm.sum /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libitm/testsuite/libitm.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libstdc++-v3/testsuite/libstdc++.sum /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libstdc++-v3/testsuite/libstdc++.sum.sent &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/g++/g++.log /usr/ports/core/gcc/work/src/build/./gcc/testsuite/g++/g++.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/gcc/gcc.log /usr/ports/core/gcc/work/src/build/./gcc/testsuite/gcc/gcc.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./gcc/testsuite/objc/objc.log /usr/ports/core/gcc/work/src/build/./gcc/testsuite/objc/objc.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libatomic/testsuite/libatomic.log /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libatomic/testsuite/libatomic.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libgomp/testsuite/libgomp.log /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libgomp/testsuite/libgomp.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libitm/testsuite/libitm.log /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libitm/testsuite/libitm.log.sent &&
+mv /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libstdc++-v3/testsuite/libstdc++.log /usr/ports/core/gcc/work/src/build/./powerpc-unknown-linux-gnu/libstdc++-v3/testsuite/libstdc++.log.sent &&
+true
